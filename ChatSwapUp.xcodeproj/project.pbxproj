@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293FD412209E03C300D58754 /* MessageControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293FD411209E03C300D58754 /* MessageControllerTableViewController.swift */; };
+		293FD414209E08F800D58754 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293FD413209E08F800D58754 /* NewMessageController.swift */; };
 		299B785B209886980035263F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299B785A209886980035263F /* AppDelegate.swift */; };
-		299B785D209886980035263F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299B785C209886980035263F /* ViewController.swift */; };
 		299B7860209886980035263F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299B785E209886980035263F /* Main.storyboard */; };
 		299B7862209886990035263F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299B7861209886990035263F /* Assets.xcassets */; };
 		299B7865209886990035263F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299B7863209886990035263F /* LaunchScreen.storyboard */; };
+		299B786D2098878A0035263F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 299B786C2098878A0035263F /* GoogleService-Info.plist */; };
+		29BC32492098980E000FB697 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32482098980E000FB697 /* LoginController.swift */; };
+		29BC324B20989BD4000FB697 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC324A20989BD4000FB697 /* SignUpController.swift */; };
+		29BC324D2098AF4C000FB697 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC324C2098AF4C000FB697 /* FeedViewController.swift */; };
+		29BC324F2098AF55000FB697 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC324E2098AF55000FB697 /* UserCell.swift */; };
+		29BC32522098AF80000FB697 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32512098AF80000FB697 /* Users.swift */; };
+		29BC32542098AF90000FB697 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32532098AF90000FB697 /* ChatLogController.swift */; };
+		29BC32582098AFBC000FB697 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32572098AFBC000FB697 /* Message.swift */; };
+		29BC32592098B05D000FB697 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32562098AFAF000FB697 /* Extensions.swift */; };
+		996B99BB3B699B44BE8F8707 /* Pods_ChatSwapUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2B849EEC01E9034417F27 /* Pods_ChatSwapUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293FD411209E03C300D58754 /* MessageControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageControllerTableViewController.swift; sourceTree = "<group>"; };
+		293FD413209E08F800D58754 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		299B7857209886980035263F /* ChatSwapUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSwapUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299B785A209886980035263F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		299B785C209886980035263F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		299B785F209886980035263F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		299B7861209886990035263F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299B7864209886990035263F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299B7866209886990035263F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299B786C2098878A0035263F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29BC32482098980E000FB697 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		29BC324A20989BD4000FB697 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		29BC324C2098AF4C000FB697 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		29BC324E2098AF55000FB697 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		29BC32512098AF80000FB697 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		29BC32532098AF90000FB697 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		29BC32562098AFAF000FB697 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		29BC32572098AFBC000FB697 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		58DF6DFF72092AE95F776AE7 /* Pods-ChatSwapUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSwapUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatSwapUp/Pods-ChatSwapUp.release.xcconfig"; sourceTree = "<group>"; };
+		B92821175E26D14DBDFC54B3 /* Pods-ChatSwapUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSwapUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatSwapUp/Pods-ChatSwapUp.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA2B849EEC01E9034417F27 /* Pods_ChatSwapUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatSwapUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996B99BB3B699B44BE8F8707 /* Pods_ChatSwapUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				299B7859209886980035263F /* ChatSwapUp */,
 				299B7858209886980035263F /* Products */,
+				C21B28D200CDE245490C7BFF /* Pods */,
+				B85BF10F0444DE2D9495C205 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,65 @@
 		299B7859209886980035263F /* ChatSwapUp */ = {
 			isa = PBXGroup;
 			children = (
+				29BC32552098AFA4000FB697 /* Extensions */,
+				29BC32502098AF5C000FB697 /* Models */,
+				29BC3247209897DC000FB697 /* Controller */,
 				299B785A209886980035263F /* AppDelegate.swift */,
-				299B785C209886980035263F /* ViewController.swift */,
 				299B785E209886980035263F /* Main.storyboard */,
 				299B7861209886990035263F /* Assets.xcassets */,
 				299B7863209886990035263F /* LaunchScreen.storyboard */,
 				299B7866209886990035263F /* Info.plist */,
+				299B786C2098878A0035263F /* GoogleService-Info.plist */,
 			);
 			path = ChatSwapUp;
+			sourceTree = "<group>";
+		};
+		29BC3247209897DC000FB697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BC32482098980E000FB697 /* LoginController.swift */,
+				29BC324A20989BD4000FB697 /* SignUpController.swift */,
+				29BC324C2098AF4C000FB697 /* FeedViewController.swift */,
+				29BC32532098AF90000FB697 /* ChatLogController.swift */,
+				293FD411209E03C300D58754 /* MessageControllerTableViewController.swift */,
+				293FD413209E08F800D58754 /* NewMessageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BC32502098AF5C000FB697 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29BC32572098AFBC000FB697 /* Message.swift */,
+				29BC324E2098AF55000FB697 /* UserCell.swift */,
+				29BC32512098AF80000FB697 /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29BC32552098AFA4000FB697 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29BC32562098AFAF000FB697 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B85BF10F0444DE2D9495C205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2B849EEC01E9034417F27 /* Pods_ChatSwapUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21B28D200CDE245490C7BFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B92821175E26D14DBDFC54B3 /* Pods-ChatSwapUp.debug.xcconfig */,
+				58DF6DFF72092AE95F776AE7 /* Pods-ChatSwapUp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299B7869209886990035263F /* Build configuration list for PBXNativeTarget "ChatSwapUp" */;
 			buildPhases = (
+				C827AD4ED60B9B7741F72636 /* [CP] Check Pods Manifest.lock */,
 				299B7853209886980035263F /* Sources */,
 				299B7854209886980035263F /* Frameworks */,
 				299B7855209886980035263F /* Resources */,
+				28F8D6E1EFB4866CA4291D53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +205,73 @@
 				299B7865209886990035263F /* LaunchScreen.storyboard in Resources */,
 				299B7862209886990035263F /* Assets.xcassets in Resources */,
 				299B7860209886980035263F /* Main.storyboard in Resources */,
+				299B786D2098878A0035263F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28F8D6E1EFB4866CA4291D53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChatSwapUp/Pods-ChatSwapUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatSwapUp/Pods-ChatSwapUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C827AD4ED60B9B7741F72636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatSwapUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		299B7853209886980035263F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299B785D209886980035263F /* ViewController.swift in Sources */,
+				29BC32542098AF90000FB697 /* ChatLogController.swift in Sources */,
+				29BC32492098980E000FB697 /* LoginController.swift in Sources */,
+				29BC32582098AFBC000FB697 /* Message.swift in Sources */,
+				293FD414209E08F800D58754 /* NewMessageController.swift in Sources */,
+				29BC324F2098AF55000FB697 /* UserCell.swift in Sources */,
+				29BC32592098B05D000FB697 /* Extensions.swift in Sources */,
+				293FD412209E03C300D58754 /* MessageControllerTableViewController.swift in Sources */,
+				29BC324D2098AF4C000FB697 /* FeedViewController.swift in Sources */,
 				299B785B209886980035263F /* AppDelegate.swift in Sources */,
+				29BC324B20989BD4000FB697 /* SignUpController.swift in Sources */,
+				29BC32522098AF80000FB697 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +413,7 @@
 		};
 		299B786A209886990035263F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92821175E26D14DBDFC54B3 /* Pods-ChatSwapUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +432,7 @@
 		};
 		299B786B209886990035263F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DF6DFF72092AE95F776AE7 /* Pods-ChatSwapUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
